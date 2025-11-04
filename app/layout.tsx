@@ -11,12 +11,12 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Virtual Assistant Services | Professional VA Support | Fridahva",
+  title: "Virtual Assistant Services | Professional VA Support | FridahVA",
   description:
     "Professional virtual assistant services to streamline your business operations. Hire a trained VA to handle scheduling, emails, and more. Free consultation available.",
   keywords: ["virtual assistant", "VA services", "business support", "remote assistant"],
   openGraph: {
-    title: "Virtual Assistant Services | Fridahva",
+    title: "Virtual Assistant Services | FridahVA",
     description: "Professional virtual assistant services to streamline your business operations.",
     type: "website",
     url: "https://fridahva.vercel.app",
