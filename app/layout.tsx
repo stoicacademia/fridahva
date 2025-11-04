@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     title: "Virtual Assistant Services | Fridahva",
     description: "Professional virtual assistant services to streamline your business operations.",
     type: "website",
-    url: "https://fridahva.com",
+    url: "https://fridahva.vercel.app",
     images: [
       {
-        url: "https://fridahva.com/og-image.png",
+        url: "https://fridahva.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
       },
@@ -65,7 +65,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://fridahva.com" />
+        <link rel="canonical" href="https://fridahva.vercel.app" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -73,7 +73,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Fridahva",
-              url: "https://fridahva.com",
+              url: "https://fridahva.vercel.app",
               description: "Professional virtual assistant services",
               contactPoint: {
                 "@type": "ContactPoint",

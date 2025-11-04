@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     title: "Client Testimonials & Success Stories | Fridahva",
     description: "See success stories from business owners using Fridahva.",
     type: "website",
-    url: "https://fridahva.com/testimonials",
+    url: "https://fridahva.vercel.app/testimonials",
     images: [
       {
-        url: "https://fridahva.com/og-image.png",
+        url: "https://fridahva.vercel.app/og-image-2.jpg",
         width: 1200,
         height: 630,
         alt: "Client testimonials and success stories",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://fridahva.com/testimonials",
+    canonical: "https://fridahva.vercel.app/testimonials",
   },
 }
 

@@ -4,8 +4,6 @@ import { HireForm } from "@/components/hire-form"
 import { HireBenefits } from "@/components/hire-benefits"
 import { BookCallButton } from "@/components/book-call-button"
 import { Footer } from "@/components/footer"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Hire a Virtual Assistant | Professional VA Matching | Fridahva",
@@ -22,10 +20,10 @@ export const metadata: Metadata = {
     title: "Hire a Virtual Assistant | Fridahva",
     description: "Find your perfect virtual assistant with personalized matching and fast onboarding.",
     type: "website",
-    url: "https://fridahva.com/hire-a-va",
+    url: "https://fridahva.vercel.app/hire-a-va",
     images: [
       {
-        url: "https://fridahva.com/og-image.png",
+        url: "https://fridahva.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Hire a Virtual Assistant",
@@ -42,7 +40,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://fridahva.com/hire-a-va",
+    canonical: "https://fridahva.vercel.app/hire-a-va",
   },
 }
 
