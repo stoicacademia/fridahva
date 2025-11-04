@@ -56,7 +56,7 @@ export function HeroSection() {
               </Link>
             </Button>
             <div className="hidden md:flex gap-3 items-center justify-center">
-            <BookCallButton link="https://calendar.app.google/YvUxHcScmVoCDcGw7" />
+            <BookCallButton />
           </div>
           </motion.div>
         </motion.div>

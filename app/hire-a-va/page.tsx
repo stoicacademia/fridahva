@@ -78,7 +78,7 @@ export default function HireVAPage() {
           
           {/* CTA Buttons */}
           <div className="hidden md:flex gap-3 items-center justify-center">
-            <BookCallButton link="https://calendar.app.google/YvUxHcScmVoCDcGw7" />
+            <BookCallButton />
           </div>
         </div>
       </section>

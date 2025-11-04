@@ -57,7 +57,7 @@ export function Navigation() {
             <Button variant="outline" asChild>
               <Link href="/hire-a-va">Hire a VA</Link>
             </Button>
-            <BookCallButton link="https://calendar.app.google/YvUxHcScmVoCDcGw7" />
+            <BookCallButton />
           </div>
 
           {/* Mobile Menu Button */}
@@ -84,7 +84,7 @@ export function Navigation() {
             <Button variant="outline" asChild className="w-full bg-transparent">
               <Link href="/hire-a-va">Hire a VA</Link>
             </Button>
-            <BookCallButton link="https://calendar.app.google/vRnRUMXNQyQ94UD4A" />
+            <BookCallButton />
           </div>
         )}
       </div>

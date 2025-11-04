@@ -5,10 +5,6 @@ import { CalendarClock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 
-interface BookCallButtonProps {
-    link: string
-}
-
 // Custom hook to detect screen size
 function useMediaQuery(query: string): boolean {
     const [matches, setMatches] = useState(false)
@@ -26,9 +22,10 @@ function useMediaQuery(query: string): boolean {
     return matches
 }
 
-export function BookCallButton({ link }: BookCallButtonProps) {
+export function BookCallButton() {
     const [open, setOpen] = useState(false)
     const isMobile = useMediaQuery("(max-width: 768px)")
+    const calendarLink = process.env.NEXT_PUBLIC_CALENDAR_LINK || "https://calendar.app.google/YvUxHcScmVoCDcGw7"
 
     return (
         <Sheet open={open} onOpenChange={setOpen}>
@@ -49,7 +46,7 @@ export function BookCallButton({ link }: BookCallButtonProps) {
                 </SheetHeader>
                 <div className="p-6 pt-4 h-full">
                     <iframe
-                        src={link}
+                        src={calendarLink}
                         className="w-full h-[85vh] border-0 rounded-lg"
                         title="Schedule a Call"
                         loading="lazy"
