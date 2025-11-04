@@ -41,7 +41,9 @@ export function Watermark({
           gap-2
         `}
       >
-        <Github className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 xl:w-16 xl:h-16" />
+        <div className="p-2 border-2 border-teal-500 rounded-full">
+            <Github className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 xl:w-16 xl:h-16" />
+        </div>
         {text}
       </div>
     </div>
