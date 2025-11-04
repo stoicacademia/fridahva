@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Poppins } from "next/font/google"
 // import { Analytics } from "@vercel/analytics/next"
+import { Watermark } from "@/components/watermark"
 import "./globals.css"
 
 const poppins = Poppins({
@@ -86,6 +87,7 @@ export default function RootLayout({
       </head>
       <body className={`${poppins.variable} font-sans antialiased`}>
         {children}
+        <Watermark />
         {/* <Analytics /> */}
       </body>
     </html>
