@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Poppins } from "next/font/google"
 // import { Analytics } from "@vercel/analytics/next"
 import { Watermark } from "@/components/watermark"
+import { ChatButton } from "@/components/ChatButton"
 import "./globals.css"
 
 const poppins = Poppins({
@@ -88,6 +89,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} font-sans antialiased`}>
         {children}
         <Watermark />
+        <ChatButton />
         {/* <Analytics /> */}
       </body>
     </html>
