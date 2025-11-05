@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sh
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Send, Bot, User } from 'lucide-react';
+import { TypingIndicator } from '@/components/TypingIndicator';
 
 interface Message {
     role: 'user' | 'assistant';
@@ -133,20 +134,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
                         </div>
                     ))}
 
-                    {isLoading && (
-                        <div className="flex items-start gap-3">
-                            <div className="w-8 h-8 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
-                                <Bot className="w-4 h-4 text-gold" />
-                            </div>
-                            <div className="bg-white text-maroon border border-gold/20 p-3 rounded-lg shadow-sm">
-                                <div className="flex items-center gap-1">
-                                    <div className="w-2 h-2 bg-gold rounded-full animate-bounce" />
-                                    <div className="w-2 h-2 bg-gold rounded-full animate-bounce" style={{ animationDelay: '0.1s' }} />
-                                    <div className="w-2 h-2 bg-gold rounded-full animate-bounce" style={{ animationDelay: '0.2s' }} />
-                                </div>
-                            </div>
-                        </div>
-                    )}
+                    <TypingIndicator isVisible={isLoading} />
 
                     <div ref={messagesEndRef} />
                 </div>
