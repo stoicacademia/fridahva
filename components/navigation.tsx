@@ -41,6 +41,9 @@ export function Navigation() {
             <Link href="/#how-it-works" className="text-sm text-foreground/70 hover:text-foreground transition-colors">
               How It Works
             </Link>
+            <Link href="/#services" className="text-sm text-foreground/70 hover:text-foreground transition-colors">
+              Services
+            </Link>
             <Link href="/#about" className="text-sm text-foreground/70 hover:text-foreground transition-colors">
               About
             </Link>
@@ -49,6 +52,9 @@ export function Navigation() {
             </Link>
             <Link href="/#contact" className="text-sm text-foreground/70 hover:text-foreground transition-colors">
               Contact
+            </Link>
+            <Link href="/resources" className="text-sm text-foreground/70 hover:text-foreground transition-colors">
+              Resources
             </Link>
           </div>
 
@@ -72,6 +78,9 @@ export function Navigation() {
             <Link href="/#how-it-works" className="block text-sm text-foreground/70 hover:text-foreground">
               How It Works
             </Link>
+            <Link href="/#services" className="block text-sm text-foreground/70 hover:text-foreground">
+              Services
+            </Link>
             <Link href="/#about" className="block text-sm text-foreground/70 hover:text-foreground">
               About
             </Link>
@@ -80,6 +89,9 @@ export function Navigation() {
             </Link>
             <Link href="/#contact" className="block text-sm text-foreground/70 hover:text-foreground">
               Contact
+            </Link>
+            <Link href="/resources" className="block text-sm text-foreground/70 hover:text-foreground">
+              Resources
             </Link>
             <Button variant="outline" asChild className="w-full bg-transparent">
               <Link href="/hire-a-va">Hire a VA</Link>
