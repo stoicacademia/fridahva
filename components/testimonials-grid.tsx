@@ -10,42 +10,42 @@ const testimonials = [
     role: "CEO, Tech Startup",
     content: "Transformed my business. Now I have actual work-life balance instead of 60+ hour weeks.",
     rating: 5,
-    avatar: "/placeholder.svg?key=grid1",
+    avatar: "/sarah-johnson.jpg",
   },
   {
     name: "Michael Chen",
     role: "Founder, E-commerce",
     content: "Our customer support improved 300%. VA handles everything seamlessly and proactively.",
     rating: 5,
-    avatar: "/placeholder.svg?key=grid2",
+    avatar: "/michael-chen.jpg",
   },
   {
     name: "Emma Rodriguez",
     role: "Marketing Director",
     content: "Professional, quick to adapt, and takes initiative. Exactly what we needed.",
     rating: 5,
-    avatar: "/placeholder.svg?key=grid3",
+    avatar: "/emma-rodriguez.jpg",
   },
   {
     name: "David Kumar",
     role: "Consultant",
     content: "Skeptical at first, but the onboarding was effortless. Quality exceeded expectations.",
     rating: 5,
-    avatar: "/placeholder.svg?key=grid4",
+    avatar: "/david-kumar.jpg",
   },
   {
     name: "Lisa Thompson",
     role: "Small Business Owner",
     content: "Affordable and reliable. My VA is now an integral part of the team.",
     rating: 5,
-    avatar: "/placeholder.svg?key=grid5",
+    avatar: "/lisa-thompson.jpg",
   },
   {
     name: "James Wilson",
     role: "Agency Owner",
     content: "Best decision for scaling operations. Support quality is outstanding.",
     rating: 5,
-    avatar: "/placeholder.svg?key=grid6",
+    avatar: "/james-wilson.jpg",
   },
 ]
 
@@ -80,7 +80,7 @@ export function TestimonialsGrid() {
     >
       {testimonials.map((testimonial, index) => (
         <motion.div key={index} variants={itemVariants}>
-          <Card className="p-6 h-full border-2 hover:border-primary/50 transition-all hover:shadow-lg">
+          <Card className="p-6 h-full border-2 border-primary/20 hover:border-primary/50 transition-all hover:shadow-lg">
             <div className="flex gap-1 mb-4">
               {[...Array(testimonial.rating)].map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-primary text-primary" />

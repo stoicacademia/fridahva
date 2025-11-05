@@ -12,7 +12,7 @@ const testimonials = [
     content:
       "Hiring a VA through Fridahva completely transformed how I manage my business. I went from working 60+ hour weeks to actually having work-life balance. The matching process was incredibly smooth.",
     rating: 5,
-    avatar: "/placeholder.svg?key=testimonial1",
+    avatar: "/sarah-johnson.jpg",
   },
   {
     name: "Michael Chen",
@@ -20,7 +20,7 @@ const testimonials = [
     content:
       "The VA team has been instrumental in scaling our customer support. They handle emails, chat inquiries, and social media seamlessly. I couldn't imagine running our business without them now.",
     rating: 5,
-    avatar: "/placeholder.svg?key=testimonial2",
+    avatar: "/michael-chen.jpg",
   },
   {
     name: "Emma Rodriguez",
@@ -28,7 +28,7 @@ const testimonials = [
     content:
       "What impressed me most was the professionalism and quick adaptation. Our VA understood our brand voice immediately and took initiative without micromanagement. Highly recommend!",
     rating: 5,
-    avatar: "/placeholder.svg?key=testimonial3",
+    avatar: "/emma-rodriguez.jpg",
   },
   {
     name: "David Kumar",
@@ -36,7 +36,7 @@ const testimonials = [
     content:
       "I was skeptical about hiring a remote VA, but Fridahva made it effortless. The onboarding was quick, communication is clear, and the quality of work exceeded expectations.",
     rating: 5,
-    avatar: "/placeholder.svg?key=testimonial4",
+    avatar: "/david-kumar.jpg",
   },
   {
     name: "Lisa Thompson",
@@ -44,7 +44,7 @@ const testimonials = [
     content:
       "Affordable, reliable, and professional. My VA has become an integral part of my team. I appreciate how Fridahva handles all the administrative details so I can focus on growth.",
     rating: 5,
-    avatar: "/placeholder.svg?key=testimonial5",
+    avatar: "/lisa-thompson.jpg",
   },
 ]
 
