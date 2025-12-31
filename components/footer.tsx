@@ -1,5 +1,6 @@
-import Link from "next/link"
-import { Mail, Linkedin, Twitter, Instagram } from "lucide-react"
+import Link from "next/link";
+import Image from "next/image";
+import { Mail, Linkedin, Twitter, Instagram } from "lucide-react";
 
 export function Footer() {
   return (
@@ -17,17 +18,26 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/#how-it-works" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link
+                  href="/#how-it-works"
+                  className="text-foreground/60 hover:text-primary transition-colors"
+                >
                   How It Works
                 </Link>
               </li>
               <li>
-                <Link href="/#about" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link
+                  href="/#about"
+                  className="text-foreground/60 hover:text-primary transition-colors"
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/testimonials" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link
+                  href="/testimonials"
+                  className="text-foreground/60 hover:text-primary transition-colors"
+                >
                   Testimonials
                 </Link>
               </li>
@@ -38,12 +48,18 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/hire-a-va" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link
+                  href="/hire-a-va"
+                  className="text-foreground/60 hover:text-primary transition-colors"
+                >
                   Hire a VA
                 </Link>
               </li>
               <li>
-                <Link href="/#contact" className="text-foreground/60 hover:text-primary transition-colors">
+                <Link
+                  href="/#contact"
+                  className="text-foreground/60 hover:text-primary transition-colors"
+                >
                   Contact Us
                 </Link>
               </li>
@@ -53,18 +69,30 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-foreground/60 hover:text-primary transition-colors"
+              >
                 <Mail className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors">
+              </Link>
+              <Link
+                href="#"
+                className="text-foreground/60 hover:text-primary transition-colors"
+              >
                 <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors">
+              </Link>
+              <Link
+                href="#"
+                className="text-foreground/60 hover:text-primary transition-colors"
+              >
                 <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors">
+              </Link>
+              <Link
+                href="#"
+                className="text-foreground/60 hover:text-primary transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,7 +108,24 @@ export function Footer() {
             </Link>
           </div>
         </div>
+        <div className="flex justify-center mt-6">
+          <Link
+            href="https://mbugua.nijue.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group border rounded-lg shadow-sm p-2 mt-4 text-center text-sm text-foreground/60 flex flex-col justify-center items-center hover:text-primary transition-colors hover:translate-y-1"
+          >
+            <span>Crafted by Mbugua</span>
+            <Image
+              src="/amctrld.png"
+              alt="amCtrld Logo"
+              width={32}
+              height={32}
+              className="inline-block ml-1 mt-2"
+            />
+          </Link>
+        </div>
       </div>
     </footer>
-  )
+  );
 }
