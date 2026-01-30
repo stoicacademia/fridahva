@@ -74,8 +74,8 @@ export function ContactSection() {
             {
               icon: Mail,
               title: "Email",
-              content: "hello@fridahva.com",
-              link: "mailto:hello@fridahva.com",
+              content: "support@fridahva.com",
+              link: "mailto:support@fridahva.com",
             },
             {
               icon: Phone,
