@@ -75,18 +75,18 @@ export function ContactSection() {
               icon: Mail,
               title: "Email",
               content: "support@fridahva.com",
-              link: "mailto:support@fridahva.com",
+              link: "mailto:vasfridah@gmail.com",
             },
             {
               icon: Phone,
               title: "Phone",
               content: "+1 (555) 123-4567",
-              link: "tel:+15551234567",
+              link: "tel:+25491025948",
             },
             {
               icon: MapPin,
               title: "Office",
-              content: "San Francisco, CA",
+              content: "Nairobi, kenya",
               link: "#",
             },
           ].map((item, index) => {
